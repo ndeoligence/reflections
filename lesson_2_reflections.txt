@@ -8,3 +8,9 @@ Reflect: Staging Area
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 * It is different in that it a conceptual stage between the repository and commits.
   it is some kind of cache stage for commits. one puts files in it before commiting.
+
+Reflect: Commit Size
+How can you use the staging area to make sure you have one commit per logical change?
+* I could use <git diff> to get the changes between the working directory and the staging area.
+  or i could use use <git diff --staged> to see differences between my changes and the last commit, if i've added the changes to the staging area.
+  This would help me see the changes and help decide if they are enough for a commit.
