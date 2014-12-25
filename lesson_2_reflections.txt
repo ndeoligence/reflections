@@ -1,0 +1,10 @@
+Reflect: Initializing a Repository
+What happens when you initialize a repository? Why do you need to do it?
+* Git creates a hidden folder <.git> with its own files in it.
+  So this hidden folder contains the metadata about the repository.
+* I guess it's to get git to prepare for keeping the history of the repository.
+
+Reflect: Staging Area
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+* It is different in that it a conceptual stage between the repository and commits.
+  it is some kind of cache stage for commits. one puts files in it before commiting.
