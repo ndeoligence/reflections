@@ -1,0 +1,3 @@
+Reflection: When would you want to use a remote repository rather than keeping all your work local?
+* When working with in a project as a group.
+* Also generally - if it's an important project. Just to keep it backed up without fear of losing it.
